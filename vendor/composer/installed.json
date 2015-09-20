@@ -162,36 +162,5 @@
             "mailform",
             "plugin"
         ]
-    },
-    {
-        "name": "getherbie/plugin-simplesearch",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/getherbie/plugin-simplesearch.git",
-            "reference": "7390ea6279684ddd5e3a26d05bb9328f84d250d9"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/getherbie/plugin-simplesearch/zipball/7390ea6279684ddd5e3a26d05bb9328f84d250d9",
-            "reference": "7390ea6279684ddd5e3a26d05bb9328f84d250d9",
-            "shasum": ""
-        },
-        "time": "2015-08-24 11:29:13",
-        "type": "herbie-plugin",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "description": "SimpleSearch Plugin for Herbie.",
-        "homepage": "http://www.getherbie.org",
-        "keywords": [
-            "herbie",
-            "plugin",
-            "search",
-            "simplesearch"
-        ]
     }
 ]
