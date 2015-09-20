@@ -1,6 +1,6 @@
 ---
 title: Welcome to Tessellate
-noCache: 1                  
+nocache: 1                  
 ---
 
 [blocks]
