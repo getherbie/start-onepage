@@ -24,5 +24,5 @@ $shortcode->add('button', function ($atts) {
         'href' => isset($atts[0]) ? $atts[0] : '',
         'text' => 'Mein Text'
     ], (array)$atts);
-    return sprintf('<a href="%s" class="button scrolly">%s</a>', $atts['href'], $atts['text']);
+    return sprintf('<footer><a href="%s" class="button scrolly">%s</a></footer>', $atts['href'], $atts['text']);
 });

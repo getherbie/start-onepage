@@ -8,6 +8,7 @@ Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida eui
 consequat feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem 
 ipsum dolor sit amet.
 
+
 --- col1 ---
 
 [icon clock-o]
@@ -15,7 +16,8 @@ ipsum dolor sit amet.
 
 Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus. 
 Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus.
-    
+
+
 --- col2 ---
 
 [icon bolt]
@@ -23,7 +25,8 @@ Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempo
 
 Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus. 
 Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus.
-    
+
+
 --- col3 ---
 
 [icon cloud]
@@ -31,7 +34,8 @@ Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempo
 
 Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus. 
 Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus.
-                                                        
---- footer ---
+
+
+--- button ---
 
 [button #second text="Gravida tempor lacinia"]

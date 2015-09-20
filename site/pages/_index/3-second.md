@@ -8,6 +8,7 @@ Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida eui
 consequat feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum 
 dolor sit amet.
 
+
 --- left ---
 
 ### Augue vivamus sed ipsum commodo lorem dolor
@@ -20,9 +21,8 @@ magna tempus feugiat.
 Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue cubilia vivamus 
 nisi eu eget ornare varius gravida dolore euismod lorem ipsum dolor.
 
-<footer>
-    [button #third text="Accumsan nisi tempor"]
-</footer>
+[button #third text="Accumsan nisi tempor"]
+
 
 --- images ---
 
