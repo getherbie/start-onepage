@@ -1,0 +1,197 @@
+[
+    {
+        "name": "getherbie/composer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/getherbie/composer.git",
+            "reference": "619d9170fef850bcd837343dfcd800655a6e8cba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/getherbie/composer/zipball/619d9170fef850bcd837343dfcd800655a6e8cba",
+            "reference": "619d9170fef850bcd837343dfcd800655a6e8cba",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "time": "2015-06-12 06:07:05",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Herbie\\Composer\\Plugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Herbie\\Composer\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "The composer installer for Herbie a flat-file CMS & blog system",
+        "homepage": "http://www.getherbie.org",
+        "keywords": [
+            "composer",
+            "getherbie",
+            "herbie",
+            "installer"
+        ]
+    },
+    {
+        "name": "symfony/yaml",
+        "version": "2.7.x-dev",
+        "version_normalized": "2.7.9999999.9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/Yaml.git",
+            "reference": "31cb2ad0155c95b88ee55fe12bc7ff92232c1770"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/Yaml/zipball/31cb2ad0155c95b88ee55fe12bc7ff92232c1770",
+            "reference": "31cb2ad0155c95b88ee55fe12bc7ff92232c1770",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.9"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "~2.7"
+        },
+        "time": "2015-09-14 14:14:09",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Yaml\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "getherbie/herbie",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/getherbie/herbie.git",
+            "reference": "1f1d180b5328ab08ac66fcee95a7ec9b2492f409"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/getherbie/herbie/zipball/1f1d180b5328ab08ac66fcee95a7ec9b2492f409",
+            "reference": "1f1d180b5328ab08ac66fcee95a7ec9b2492f409",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "symfony/yaml": "2.7.*"
+        },
+        "time": "2015-09-13 10:32:37",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Herbie\\": "system"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Herbie is a flat-file CMS & blog system. Simple installation - no database - just text files.",
+        "homepage": "http://www.getherbie.org",
+        "keywords": [
+            "blog",
+            "cms",
+            "flat-file",
+            "herbie"
+        ]
+    },
+    {
+        "name": "getherbie/plugin-simplecontact",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/getherbie/plugin-simplecontact.git",
+            "reference": "0446d056d949268b74208d82306beff46772fcea"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/getherbie/plugin-simplecontact/zipball/0446d056d949268b74208d82306beff46772fcea",
+            "reference": "0446d056d949268b74208d82306beff46772fcea",
+            "shasum": ""
+        },
+        "time": "2015-08-24 10:02:16",
+        "type": "herbie-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "SimpleContact Plugin for Herbie.",
+        "homepage": "http://www.getherbie.org",
+        "keywords": [
+            "contact",
+            "herbie",
+            "mailform",
+            "plugin"
+        ]
+    },
+    {
+        "name": "getherbie/plugin-simplesearch",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/getherbie/plugin-simplesearch.git",
+            "reference": "7390ea6279684ddd5e3a26d05bb9328f84d250d9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/getherbie/plugin-simplesearch/zipball/7390ea6279684ddd5e3a26d05bb9328f84d250d9",
+            "reference": "7390ea6279684ddd5e3a26d05bb9328f84d250d9",
+            "shasum": ""
+        },
+        "time": "2015-08-24 11:29:13",
+        "type": "herbie-plugin",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "SimpleSearch Plugin for Herbie.",
+        "homepage": "http://www.getherbie.org",
+        "keywords": [
+            "herbie",
+            "plugin",
+            "search",
+            "simplesearch"
+        ]
+    }
+]

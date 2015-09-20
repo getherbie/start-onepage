@@ -1,0 +1,7 @@
+nice_urls: false
+plugins:
+    enable:
+        - simplecontact
+    config:
+        simplecontact:
+            template: @site/layouts/simplecontact/form.twig

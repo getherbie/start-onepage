@@ -1,0 +1,17 @@
+{
+	"name": "getherbie/composer",
+	"homepage": "http://www.getherbie.org",
+	"description": "The composer installer for Herbie a flat-file CMS & blog system",
+	"keywords": ["getherbie", "herbie", "composer", "installer"],
+	"type": "composer-plugin",
+    "license":"BSD-3-Clause",
+	"autoload": {
+		"psr-4": { "Herbie\\Composer\\": "" }
+	},
+	"extra": {
+		"class": "Herbie\\Composer\\Plugin"
+	},
+	"require": {
+		"composer-plugin-api": "^1.0"
+	}
+}
