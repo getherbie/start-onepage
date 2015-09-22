@@ -10,16 +10,16 @@ plugins:
             fields:
               name:
                 label: "Dein Name"
-                placeholder:
+                placeholder: "Dein Name"
               email:
                 label: "Deine E-Mail"
-                placeholder:
+                placeholder: "Deine E-Mail"
               message:
                 label: "Deine Nachricht"
-                placeholder:
+                placeholder: "Deine Nachricht"
               antispam:
                 label: "Antispam"
-                placeholder:
+                placeholder: "Antispam"
               submit:
                 label: "Formular absenden"
             messages:

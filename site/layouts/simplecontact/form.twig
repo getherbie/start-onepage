@@ -4,29 +4,31 @@
         <div class="simplecontact-errors">{{ config.messages.error }}</div>
     {% endif %}
 
-    <form class="pure-form pure-form-stacked" action="{{ url(route) }}#simplecontact" method="post" id="simplecontact-form">
-        <div class="pure-control-group">
-            <label for="name">{{ config.fields.name.label }}</label>
-            <input class="pure-input-1" id="name" name="name" type="text" placeholder="" value="{{ vars.name }}">
+    <form action="{{ url(route) }}#simplecontact" method="post" id="simplecontact-form">
+        <div class="row 50%">
+            <div class="6u 12u(mobile)">
+                <input type="text" name="name" placeholder="{{ config.fields.name.label }}" value="{{ vars.name }}">
+            </div>
+            <div class="6u 12u(mobile)">
+                <input type="text" name="email" placeholder="{{ config.fields.email.label }}" value="{{ vars.email }}">
+            </div>
         </div>
-
-        <div class="pure-control-group">
-            <label for="email">{{ config.fields.email.label }}</label>
-            <input class="pure-input-1" id="email" name="email" type="email" placeholder="" value="{{ vars.email }}">
+        <div class="row 50%">
+            <div class="12u">
+                <textarea name="message" placeholder="{{ config.fields.message.label }}">{{ vars.message }}</textarea>
+            </div>
         </div>
-
-        <div class="pure-control-group">
-            <label for="message">{{ config.fields.message.label }}</label>
-            <textarea class="pure-input-1" id="message" name="message" placeholder="{{ config.fields.message.placeholder }}" rows="5">{{ vars.message }}</textarea>
-        </div>
-
-        <div class="pure-control-group pure-control-group-antispam">
+        <div class="row 50% antispam">
             <label for="antispam">{{ config.fields.antispam.label }}</label>
-            <input class="pure-input-1" id="antispam" name="antispam" type="text" placeholder="" value="{{ vars.antispam }}">
+            <input id="antispam" name="antispam" type="text" placeholder="" value="{{ vars.antispam }}">
         </div>
-
-        <div class="pure-controls">
-            <input type="submit" class="button pure-button-primary" value="{{ config.fields.submit.label }}">
+        <div class="row">
+            <div class="12u">
+                <ul class="actions">
+                    <li><input type="submit" class="button" value="{{ config.fields.submit.label }}" /></li>
+                    <li><input type="reset" class="button alt" value="Reset" /></li>
+                </ul>
+            </div>
         </div>
     </form>
 
@@ -39,11 +41,9 @@
         color:white;
         padding:1em;
         margin-bottom:1em;
+        border-radius: 0.25em;
     }
-    .pure-control-group {
-        margin-bottom:1em;
-    }
-    .pure-control-group-antispam {
+    .antispam {
         display:none;
     }
 </style>
