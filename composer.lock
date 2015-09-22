@@ -52,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/getherbie/herbie.git",
-                "reference": "1f1d180b5328ab08ac66fcee95a7ec9b2492f409"
+                "reference": "9be5145b98fd138ed50e4dbd835781356d522a31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/getherbie/herbie/zipball/1f1d180b5328ab08ac66fcee95a7ec9b2492f409",
-                "reference": "1f1d180b5328ab08ac66fcee95a7ec9b2492f409",
+                "url": "https://api.github.com/repos/getherbie/herbie/zipball/9be5145b98fd138ed50e4dbd835781356d522a31",
+                "reference": "9be5145b98fd138ed50e4dbd835781356d522a31",
                 "shasum": ""
             },
             "require": {
@@ -82,7 +82,7 @@
                 "flat-file",
                 "herbie"
             ],
-            "time": "2015-09-13 10:32:37"
+            "time": "2015-09-22 14:33:48"
         },
         {
             "name": "getherbie/plugin-simplecontact",

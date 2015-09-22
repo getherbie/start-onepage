@@ -93,46 +93,6 @@
         "homepage": "https://symfony.com"
     },
     {
-        "name": "getherbie/herbie",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/getherbie/herbie.git",
-            "reference": "1f1d180b5328ab08ac66fcee95a7ec9b2492f409"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/getherbie/herbie/zipball/1f1d180b5328ab08ac66fcee95a7ec9b2492f409",
-            "reference": "1f1d180b5328ab08ac66fcee95a7ec9b2492f409",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.4.0",
-            "symfony/yaml": "2.7.*"
-        },
-        "time": "2015-09-13 10:32:37",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "Herbie\\": "system"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "description": "Herbie is a flat-file CMS & blog system. Simple installation - no database - just text files.",
-        "homepage": "http://www.getherbie.org",
-        "keywords": [
-            "blog",
-            "cms",
-            "flat-file",
-            "herbie"
-        ]
-    },
-    {
         "name": "getherbie/plugin-simplecontact",
         "version": "dev-master",
         "version_normalized": "9999999-dev",
@@ -161,6 +121,46 @@
             "herbie",
             "mailform",
             "plugin"
+        ]
+    },
+    {
+        "name": "getherbie/herbie",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/getherbie/herbie.git",
+            "reference": "9be5145b98fd138ed50e4dbd835781356d522a31"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/getherbie/herbie/zipball/9be5145b98fd138ed50e4dbd835781356d522a31",
+            "reference": "9be5145b98fd138ed50e4dbd835781356d522a31",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "symfony/yaml": "2.7.*"
+        },
+        "time": "2015-09-22 14:33:48",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Herbie\\": "system"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "Herbie is a flat-file CMS & blog system. Simple installation - no database - just text files.",
+        "homepage": "http://www.getherbie.org",
+        "keywords": [
+            "blog",
+            "cms",
+            "flat-file",
+            "herbie"
         ]
     }
 ]
