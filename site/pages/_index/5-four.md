@@ -1,12 +1,13 @@
 ---
 layout: blocks/four.html
+format: html
 ---
 
-## Sed feugiat ipsum consequat
+<h2>Sed feugiat ipsum consequat</h2>
 
-Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet 
+<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet 
 consequat feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem 
-ipsum dolor sit amet.
+ipsum dolor sit amet.</p>
 
 
 --- form ---
